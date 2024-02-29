@@ -20,7 +20,7 @@ class dmvSimulator{
 
             if (currentNumber == waitNumber) {
                 System.out.println("Number " + waitNumber + " please come to the counter.");
-                System.out.println("Hey dum dum, you do not have the required paperwork. Try again, NEVER. Loser.");
+                System.out.println("Hey dum dum, you do not have the required paperwork. Try again, NEVER. (maniacal laugh)");
                 numCalled = true;
             }else{
 
