@@ -20,7 +20,13 @@ class dmvSimulator{
 
             if (currentNumber == waitNumber) {
                 System.out.println("Number " + waitNumber + " please come to the counter.");
+                int miracle = random.nextInt(100);
+                if(miracle < 99){
                 System.out.println("Hey dum dum, you do not have the required paperwork. Try again, NEVER. Loser.");
+                }else{
+                    System.out.println("Thank you for bringing the correct paperwork, you are all set!");
+ 
+                }
                 numCalled = true;
             }else{
 
