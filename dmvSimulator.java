@@ -5,7 +5,7 @@ class dmvSimulator{
     public static void main(String[] args) {
         System.out.println("Welecome to the DMV!");
         Random random = new Random();
-       int waitNumber = random.nextInt(100);
+       int waitNumber = random.nextInt(200);
        
         
         System.out.println("Your number is " + waitNumber + " please wait for your number to be called.");
@@ -14,7 +14,7 @@ class dmvSimulator{
 
         while (!numCalled) {
 
-            if (currentNumber > 100) {
+            if (currentNumber > 200) {
                 currentNumber = 1;
             }
 
